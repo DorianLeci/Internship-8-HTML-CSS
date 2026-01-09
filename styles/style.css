@@ -67,9 +67,19 @@ hr {
 }
 
 #nav-title{
-    color:white;
+    color: white;
 }
 
+#nav-title:before{
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-right: 5px;
+    border-width: 10px 6px 0 6px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
 
 #header-nav ul{
     width:200px;
@@ -82,7 +92,6 @@ hr {
     display: flex;
     justify-content: flex-start;
     gap: 5px;
-    color: var(--nav-link-color);
 }
 
 #header-nav li::before{
