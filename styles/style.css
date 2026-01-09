@@ -8,6 +8,8 @@
     --main-font: Arial,sans-serif;
     --base-font-size: 16px;
     --nav-link-color: rgb(147, 112, 219);
+    --link-color-default: #000080;
+    --link-color-active: #00ffff;
 }
 
 
@@ -30,6 +32,12 @@ hr {
     height: 2px;       
     background-color: orange; 
     margin: 0.5rem 0;          
+}
+
+a:link,
+a:visited
+{
+    color: var(--link-color-default);
 }
 
 
@@ -63,6 +71,16 @@ hr {
     justify-content: flex-start;
     gap: 5px;
     color: var(--nav-link-color);
+}
+
+#header-nav a:link,
+#header-nav a:visited
+{
+    color: var(--nav-link-color);
+}
+
+#header-nav a:active{
+    color: var(--link-color-active)
 }
 
 #header-nav li::before{
