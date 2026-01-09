@@ -22,11 +22,17 @@ body{
 
 header{
     padding-bottom:20px;
-    border-bottom: 2px solid orange;
+}
+
+hr {
+    border: none;
+    height: 2px;       
+    background-color: orange; 
+    margin: 0.5rem 0;          
 }
 
 #main-title{
-    font-size: 2.25rem;
+    font-size: 3rem;
     color: white;
     line-height: 2;
 }
@@ -40,7 +46,6 @@ header{
 
 #nav-title{
     color:white;
-    font-size:0.8rem;
 }
 
 
@@ -48,7 +53,6 @@ header{
     width:70%;
     margin: 0 auto;
     list-style-position: inside;
-    font-size: 0.8rem;
 }
 
 #header-nav li{
@@ -61,4 +65,20 @@ header{
 #header-nav li::before{
     content: "•";
     color: white;
+}
+
+.text-section{
+    padding:10px;
+    background-color: #faebd7;
+    border:10px #ff00ff solid;
+}
+
+.text-section__title{
+    margin:1.875rem 0;
+    font-size: 2.25rem;
+}
+
+.text-section__paragraph{
+    margin-bottom:1.5rem;
+    font-size: 1.5rem;
 }
