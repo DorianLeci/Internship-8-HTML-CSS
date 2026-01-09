@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" initial-scale="1.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
     <link rel="stylesheet" href="styles/style.css"/>
     <title></title>
@@ -14,10 +14,10 @@
             <p id="nav-title">Navigation</p>
             <nav id="header-nav">
                 <ul>
-                    <li><a href="#what-section">What is this?</a></li>
-                    <li><a href="#how-section">How does this work?</a></li>
-                    <li><a href="#why-section">But why?</a></li>
-                    <li><a href="https://html-only.netlify.app/frames/">Framset Version (New in 2024)</a></li>
+                    <li><a class="link-violet" href="#what-section">What is this?</a></li>
+                    <li><a class="link-violet" href="#how-section">How does this work?</a></li>
+                    <li><a class="link-violet" href="#why-section">But why?</a></li>
+                    <li><a class="link-violet" href="https://html-only.netlify.app/frames/">Frameset Version (New in 2024)</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,7 +30,7 @@
 
             <h2 class="text-section__title">What is this?</h2>
 
-            <p class="text-section__paragraph">This page was inspired by a <a href="https://x.com/whitep4nth3r/status/1510568114966171649">tweet from Salma</a>. 
+            <p class="text-section__paragraph">This page was inspired by a <a class="link-blue" href="https://x.com/whitep4nth3r/status/1510568114966171649">tweet from Salma</a>. 
                 Pretty HTML only pages are difficult to make well, and accessible. But here we are. I'm trying my best.
             </p>
         </div>
@@ -60,7 +60,7 @@
             </p>
 
             <p class="text-section__paragraph">
-                HOWEVER, I'm also using some newer things such
+                HOWEVER, I'm also using some newer things such as
                 <code class="text-section__code">details/summary</code>, 
                 <code class="text-section__code">section</code>, 
                 <code class="text-section__code">main</code>, 
@@ -79,14 +79,23 @@
 
             <p class="text-section__paragraph">
                 I make terrible things. This was an exciting 
-                <a href="https://xkcd.com/356/">nerd snipe</a>
+                <a class="link-blue" href="https://xkcd.com/356/">nerd snipe</a>
                 on a sunday, And I took up the challenge! 
             </p>
         </div>
 
-
+        <hr class="orange-divider"/>
     </main>
 
+    <footer>
+        <div id="footer-div">
+            <span class="white-span">Created by</span> <a class="link-violet" href="https://alexriviere.com/">Alex Riviere</a>
+        </div>
+
+        <div class="marquee-container">
+            <span class="scrolling-text white-span">(One marquee for good measure...)</span>
+        </div>
+    </footer>
 
 </body>
 </html>
