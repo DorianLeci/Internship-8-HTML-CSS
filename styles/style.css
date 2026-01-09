@@ -11,6 +11,7 @@
 }
 
 
+
 html{
     font-family: var(--main-font);
     font-size: var(--base-font-size);
@@ -30,6 +31,8 @@ hr {
     background-color: orange; 
     margin: 0.5rem 0;          
 }
+
+
 
 #main-title{
     font-size: 3rem;
@@ -67,11 +70,18 @@ hr {
     color: white;
 }
 
+
 .text-section{
     padding:10px;
     background-color: #faebd7;
-    border:10px #ff00ff solid;
+
 }
+
+.bd-pink {border:10px #ff00ff solid;}
+.bd-blue{border:10px #00ffff solid;}
+.bd-orange{border:10px #ff8c00 solid;}
+
+
 
 .text-section__title{
     margin:1.875rem 0;
@@ -85,4 +95,8 @@ hr {
 
 .text-section__code{
     font-size: 1.125rem;
+}
+
+.gif{
+    margin-bottom:1.5rem;
 }
