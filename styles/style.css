@@ -72,9 +72,10 @@ hr {
 
 
 #header-nav ul{
-    width:70%;
+    width:200px;
+    padding-left:40px;
+    box-sizing: content-box;
     margin: 0 auto;
-
 }
 
 #header-nav li{
@@ -82,11 +83,6 @@ hr {
     justify-content: flex-start;
     gap: 5px;
     color: var(--nav-link-color);
-}
-
-
-#header-nav a:active{
-    color: var(--link-color-active)
 }
 
 #header-nav li::before{
@@ -121,6 +117,7 @@ hr {
 }
 
 .gif{
+    max-width: 100%;
     margin-bottom:1.5rem;
 }
 
